@@ -1,13 +1,14 @@
 // ==UserScript==
-// @name        ÃëÅÄÊÓÆµ²¥·ÅÖúÊÖv1°æ
+// @name        ç§’æ‹è§†é¢‘æ’­æ”¾åŠ©æ‰‹v1ç‰ˆ
 // @namespace   undefined
 // @version     1.0.0
-// @description ÃëÅÄÊÓÆµ×Ô¶¯²¥·Å
+// @description ç§’æ‹è§†é¢‘è‡ªåŠ¨æ’­æ”¾
 // @author      Anyvone
+// @encoding    utf-8
 // @match       *://*.miaopai.com/show/*
 // @require     https://code.jquery.com/jquery-latest.js
-// @updateURL   https://github.com/javaClazz/webUserScripts/miaopai/miaopaiAutoplay.user.js
-// @downloadURL https://github.com/javaClazz/webUserScripts/miaopai/miaopaiAutoplay.user.js
+// @updateURL   https://github.com/javaClazz/webUserScripts/raw/master/miaopai/miaopaiAutoPlay.user.js
+// @downloadURL https://github.com/javaClazz/webUserScripts/raw/master/miaopai/miaopaiAutoPlay.user.js
 // @run-at 		document-start
 // @grant       unsafeWindow
 // @grant       GM_setClipboard
