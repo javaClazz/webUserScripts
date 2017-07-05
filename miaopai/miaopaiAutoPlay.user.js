@@ -13,4 +13,24 @@
 // @grant       GM_setClipboard
 // @grant       GM_xmlhttpRequest
 // ==/UserScript==
-alert("hello, my lord!");
+console.log("hello, my lord!");
+var _embed;
+var _setTimeout = window.setTimeout;
+
+_setTimeout(_check4Init, 1000);
+
+function _check4Init () {
+	_embed = $("embed")[0];
+
+	if ( !_embed ) {
+		console.log("dom tree has not rendered yet! I will retry after 1s, my lord!");
+		_setTimeout(_check4Init, 1000);
+		return;
+	}
+
+	_initWork();
+}
+
+function _initWork () {
+	console.log( _embed );
+}
